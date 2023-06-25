@@ -1,0 +1,20 @@
+name: LuneziaAuth
+version: '${project.version}'
+main: fr.lunezia.luneziaauth.Main
+authors: [ Mimifan, 82_111_109_49 ]
+description: "Plugin d'authentification pour les joueurs de Lunezia"
+commands:
+  login:
+    description: Commande de connexion du Joueur
+    aliases:
+      - l
+      - log
+      - lin
+  register:
+    description: "Commande d'enregistrement du Joueur"
+    aliases:
+      - reg
+  lauth:
+    description: Commande administrateur du plugin
+    permission: lunezia.auth.admin
+database: true
